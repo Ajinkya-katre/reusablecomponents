@@ -1,0 +1,21 @@
+.navbar{
+    background-color: aqua;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+}
+
+.navbar > div > ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar > div > ul > li{
+    padding: 8px 8px ;
+}
+
+.search{
+    margin: 20px;
+}
